@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "FULL NAME",
+    "label": "JOB TITLE",
+    "summary": "SUMMARY",
+    "website": "https://SOMEWEBSITE.TLD",
+    "phone": "+1234567890",
+    "email": "SOME@EMAIL.TLD",
+    "picture": true,
+    "location": {
+      "postalCode": "1",
+      "city": "CITY",
+      "countryCode": "COUNTRY"
+    }
+  },
+  "work": [
+    {
+      "company": "COMPANY NAME",
+      "website": "http://COMAPNYWEBSITE.TLD",
+      "position": "POSSITION",
+      "startDate": "2020-01",
+      "summary": "ONGOING JOB",
+      "highlights": [
+        "HIGHLIGHT1"
+      ]
+    },
+    {
+      "company": "COMPANY NAME",
+      "website": "http://COMAPNYWEBSITE.TLD",
+      "position": "POSSITION",
+      "startDate": "1984-01",
+      "endDate": "2020-01",
+      "summary": "EX JOB",
+      "highlights": [
+        "HIGHLIGHT1",
+        "HIGHLIGHT2"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "INSTITUTION",
+      "gpa": "SOME GPA",
+      "courses": [
+        "COURSE"
+      ],
+      "startDate": "1900-01",
+      "endDate": "1950-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "CATEGORY",
+      "level": "LEVEL",
+      "keywords": [
+        "SKILL1",
+        "SKILL2",
+        "SKILL3"
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "flavor": "TYPE",
+      "title": "TITLE",
+      "date": "2000",
+      "awarder": "AWARDER"
+    }
+  ],
+  "publications": [
+    {
+      "name": "NAME",
+      "publisher": "PUBLISHER",
+      "releaseDate": "2000",
+      "website": "https://SOMEWEBSITE.TLD",
+      "summary": "SUMMARY"
+    }
+  ],
+  "interests": [
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "NAME2"
+    }
+  ],
+  "languages": [
+    {
+      "language": "NAME",
+      "level": "LEVEL"
+    }
+  ],
+  "projects": [
+    {
+      "company": "COMPANY NAME",
+      "name": "PROJECT NAME",
+      "description": "DESCRIPTION",
+      "website": "http://COMPANYWEBSITE.TLD",
+      "keywords": [
+        "KEYWORDS1",
+        "KEYWORDS2"
+      ],
+      "roles": "ROLES"
+    }
+  ]
+}

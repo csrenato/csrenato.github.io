@@ -1,0 +1,235 @@
+{
+  "basics": {
+    "name": "Renato Ćurić",
+    "label": "DevOps Engineer",
+    "summary": "DevOps Engineer mit über 7 Jahren Branchenerfahrung, der sich mit der Entwicklung spezialisierter Lösungen auf Basis von CI / CD Verfahren auskennt. Ständige Unterstützung der Kollegen bei verschiedenen Projekten und Themen, von der Telekommunikation bis zur Bankenbranche.",
+    "website": "https://www.linkedin.com/in/RenatoCuric",
+    "phone": "+385994967461",
+    "email": "renato.curic@gmail.com",
+    "picture": "profile.png",
+    "location": {
+      "postalCode": "10000",
+      "city": "Zagreb",
+      "countryCode": "Kroatien"
+    }
+  },
+  "work": [
+    {
+      "company": "King ICT d.o.o.",
+      "website": "http://www.king-ict.hr/",
+      "position": "DevOps Engineer",
+      "startDate": "2019-02",
+      "summary": "Als DevOps Engineer bei King ICT arbeite ich an der Implementierung von CI und CD Pipelines für verschiedene Projekte. Das am häufigsten verwendete Werkzeug ist Jenkins. Die komplette Konfiguration und Verwaltung der Pipeline wird auf Linux und Windows Servern durchgeführt. Verwaltung der Entwicklungsinfrastruktur wird auch durchgeführt.",
+      "highlights": [
+        "CI-Implementierung in laufendem Projekt (Tomcat, OracleDB, Windows Server, Linux, Jenkins)"
+      ]
+    },
+    {
+      "company": "Comsysto Reply d.o.o.",
+      "website": "https://comsystoreply.de",
+      "position": "DevOps Engineer",
+      "startDate": "2017-02",
+      "endDate": "2019-02",
+      "summary": "Die Arbeit als DevOps Engineer bei ComSysto beinhaltet verschiedene Aufgaben. Unterstützung der Kollegen bei internet Aufgaben sowie Beitrag zum eigenem Projekt. Die meiste Arbeit wird mit dem Entwickeln und Bereitstellen von Infrastruktur und Automatisierungsskripts.",
+      "highlights": [
+        "Implementierte e2e-Testinfrastruktur",
+        "Erfolgreicher Beitrag zu laufenden Projekten",
+        "Verbesserung der deutschen Sprachkenntnisse",
+        "Vorträge auf lokalen Meetups und Konferenzen"
+      ]
+    },
+    {
+      "company": "Croadria d.o.o.",
+      "website": "https://www.croadria.com",
+      "position": "System Administrator",
+      "startDate": "2015-10",
+      "endDate": "2017-02",
+      "summary": "In Croadria habe ich hauptsächlich als Linux-Systemadministrator gearbeitet. Zu den täglichen Aufgaben gehörten die Linux-Server-Administration, der Kundensupport, die Installation und Konfiguration neuer Systeme (HW und SW) sowie der betrieb von Rechenzentren (Verwaltung von Bandbibliotheken, Servern, Switches). Der Kundensupport umfasste das Debuggen von PHP und Shell-Skripts sowie verschiedene andere Anforderungen (maßgeschneiderte Konfigurationen, vollständige Website und E-Mail Migrationen).",
+      "highlights": [
+        "Erfolgreiche Plattform-Upgrades",
+        "Zertifizierung"
+      ]
+    },
+    {
+      "company": "Iskon Internet d.d.",
+      "website": "https://www.iskon.hr",
+      "position": "Microsoft System Administrator",
+      "startDate": "2012-05",
+      "endDate": "2015-10",
+      "summary": "Als Microsoft-Systemadministrator in Iskon arbeitete ich in einer schnelllebigen Umgebung mit ständigem Änderungsbedarf. Meine Hauptverantwortung lag in der Beantwortung von Service Desk-Anfragen (Jira-Ticket, E-mail, Telefon) sowie in der Wartung verschiedener Microsoft-basierter Systeme (SCCM, Antivirus-Server, mehrere Datenserver, Domänencontroller, Print Server…).",
+      "highlights": [
+        "3 Jahre lang in internen Umfragen als beste Abteilung bewertet"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technische Schule Ruđer Bošković",
+      "gpa": "5",
+      "courses": [
+        "Fachinformatiker"
+      ],
+      "startDate": "2005-09",
+      "endDate": "2008-05"
+    },
+    {
+      "institution": "SCRUM Master Trainig 2018",
+      "courses": [
+        "Professional SCRUM Master training course"
+      ]
+    },
+    {
+      "institution": "Jenkins CJE Training 2018",
+      "courses": [
+        "Selbststudium"
+      ]
+    },
+    {
+      "institution": "AWS Certified Solutions Architect Associate 2018",
+      "courses": [
+        "Selbststudium"
+      ]
+    },
+    {
+      "institution": "Cucumber Training 2017",
+      "courses": [
+        "2-tägiger Workshop mit Seb Rose"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Methodische Fähigkeiten",
+      "level": "fortgeschritten",
+      "keywords": [
+        "SCRUM",
+        "BDD",
+        "Agile"
+      ]
+    },
+    {
+      "name": "Berufsqualifikationen",
+      "level": "Meister",
+      "keywords": [
+        "System Maintenance",
+        "Test Automation",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Informatikkenntnisse",
+      "level": "Meister",
+      "keywords": [
+        "Cloud",
+        "Linux",
+        "Jenkins",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Programmierung",
+      "level": "durchschnittlich",
+      "keywords": [
+        "Node",
+        "JS",
+        "Groovy"
+      ]
+    },
+    {
+      "name": "Projekt",
+      "level": "durchschnittlich",
+      "keywords": [
+        "Atlassian",
+        "TFS",
+        "Git"
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "flavor": "award",
+      "title": "Silver Medal",
+      "date": "2016",
+      "awarder": "INOVA-MLADI"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Private Cloud Infrastruktur Mit OpenNebula",
+      "publisher": "Comsysto Reply GmbH",
+      "releaseDate": "2017",
+      "website": "https://comsystoreply.de/blog-post/private-cloud-infrastructure-with-opennebula",
+      "summary": "Möchten Sie die Leistungsfähigkeit des Cloud-Computing nutzen, aber keine Public-Cloud-Lösungen verwenden? Mit OpenNebula können Sie das Ziel der Private Cloud erreichen, während Sie bereits vorhandene Hardware in Ihrem Rechenzentrum verwenden."
+    },
+    {
+      "name": "e2e Testing Mit TestCafe Und Cucumber.JS",
+      "publisher": "Comsysto Reply GmbH",
+      "releaseDate": "2018",
+      "website": "https://comsystoreply.de/blog-post/e2e-testing-with-testcafe-and-cucumber-js",
+      "summary": "Das automatische Testen von Webanwendungen aus Benutzersicht war schon immer eine langwierige Aufgabe. In den meisten Fällen wäre das Automatisierungssystem für Brüche anfällig gewesen. Systemadministratoren würden aufgrund der schnellen Änderung der Softwareanforderungen einer großen Belastung ausgesetzt. Die Dokumentation der tatsächlichen Tests, damit Unternehmen und Entwicklung die geleistete Arbeit nutzen können, war ebenfalls umständlich, und aus diesem Grund würden wir das Testen lieber vermeiden."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport"
+    },
+    {
+      "name": "Musik"
+    },
+    {
+      "name": "lesen"
+    },
+    {
+      "name": "Meetups"
+    }
+  ],
+  "languages": [
+    {
+      "language": "kroatisch",
+      "level": "Muttersprache"
+    },
+    {
+      "language": "deutsch",
+      "level": "Experte"
+    },
+    {
+      "language": "englisch",
+      "level": "Experte"
+    }
+  ],
+  "projects": [
+    {
+      "company": "Consors Bank Germany",
+      "name": "Webseiten-Überarbeitung",
+      "description": "Die Arbeit wird von einem funktionsübergreifenden Scrum-Team von Zagreb (Kroatien) aus erledigt. Wir haben die Webseite des Kunden mit modernen Technologien umgebaut. Meine Aufgaben umfassen das Schreieben von e2e Tests in JS mit dem TestCafe Framework in Kombination mit Cucumber sowie die Pflege der Jenkins und verschiedener Build-Skripts. Unterstützung interner und externer Kollegen in Bezug auf DevOps-Themen (meist in Bezug auf CI / CD Infrastruktur).",
+      "website": "http://www.consorsbank.de",
+      "keywords": [
+        "Java 8, Spring Boot, Junit, Gradle",
+        "Jenkins, Cucumber, TestCafe, SonarCube, CI/CD, SCRUM, Nexus",
+        "Angular, NPM"
+      ],
+      "roles": "DevOps Engineer, Tester"
+    },
+    {
+      "company": "Telefónica Germany GmbH",
+      "name": "Aufbau einer AWS-Infrastruktur für ein Analyseprojekt",
+      "description": "Aufbau der AWS-Infrastruktur für ein kurzfristiges Analysenprojekt bei Telefonica Deutschland. Die Infrastruktur basierte auf von AWS empfohlenen Best Practices. CentOS war die Linux-Variante, die in diesem Projekt verwendet wurde.",
+      "website": "http://www.telefonica.de",
+      "keywords": [
+        "AWS, Linux, SparkBeyond, CentOS"
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "C.A. Internet d.o.o.",
+      "name": "WebPresence",
+      "description": "Integration einer neuen zentralen Webhosting-Plattform für die Deutsche Telekom Gruppe. Ich habe mit anderen Teammitgliedern in Bezug auf Systemarchitektur und Integration sowie PoC zusammengearbeitet. Präsentierte das Projekt vor dem Ausschuss zur Evaluierung bei Magyar Telekom.",
+      "website": "http://www.telefonica.de",
+      "keywords": [
+        "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk & OBAS, KeyCloak"
+      ],
+      "roles": "System Architekt"
+    }
+  ]
+}
