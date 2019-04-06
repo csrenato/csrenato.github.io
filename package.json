@@ -1,0 +1,25 @@
+{
+  "name": "csrenato.github.io",
+  "version": "0.0.1",
+  "description": "Personal Website Based on JSON Resume",
+  "author": "Renato Ćurić",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csrenato/csrenato.github.io"
+  },
+  "scripts": {
+    "preview": "preview",
+    "deploy": "cp public/* .",
+    "previewEnglish": "resume serve -r resume/english.json -p 420 english",
+    "previewGerman": "resume serve -r resume/german.json -p 421 german",
+    "previewSkeleton": "resume serve -r resume/skeleton.json -p 422 english"
+  },
+  "bin": {
+    "resume": "./node_modules/.bin/resume"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "4.1.1",
+    "resume-cli": "1.1.2"
+  }
+}
