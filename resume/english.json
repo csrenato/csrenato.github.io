@@ -2,7 +2,7 @@
   "basics": {
     "name": "Renato Ćurić",
     "label": "DevOps Engineer",
-    "summary": "DevOps engineer with 7+ years industry experience well-versed in developing specialized solutions based on CI/CD practices. Constantly providing support for colleagues on various projects and topics, ranging from Telecommunications to Banking industries.",
+    "summary": "IT Professional with 10+ years of experience in the industry. Specializing in custom software solutions, Renato provides support for colleagues on various projects and topics, ranging from software development, architecture, deployments, different types of integrations and more.",
     "website": "https://www.linkedin.com/in/RenatoCuric",
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
@@ -19,9 +19,11 @@
       "website": "http://www.king-ict.hr/",
       "position": "DevOps Engineer",
       "startDate": "2019-02",
-      "summary": "As a DevOps Engineer at King ICT I am working on the implementation of CI and CD pipelines on different projects. The most used tool is Jenkins. The complete configuration and management of the pipeline will be performed on Linux and Windows servers as well as the administration of the development infrastructure.",
+      "summary": "At King ICT, my primary task is to design, develop and implement the company's CI/CD strategy. By creating a solid knowledge base and deployment framework, software development teams can almost effortlessly implement automatic build and deployment pipelines.",
       "highlights": [
-        "CI implementation in ongoing project (Tomcat, OracleDB, Windows Server, Centos, Jenkins)"
+        "Successfuly implemented CI/CD in ongoing projects",
+        "Developed Software Deployment Library",
+        "Core member of Testival.eu Team"
       ]
     },
     {
@@ -64,7 +66,7 @@
   ],
   "education": [
     {
-      "institution": "Tehnička škola Ruđer Bošković",
+      "institution": "Technical school Ruđer Bošković",
       "gpa": "5",
       "courses": [
         "Computer technician"
@@ -93,55 +95,71 @@
     {
       "institution": "Cucumber Training 2017",
       "courses": [
-        "2 day workshop with Seb Rose"
+        "2 day workshop"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Methodical Skills",
+      "name": "Frameworks",
       "level": "advanced",
       "keywords": [
         "SCRUM",
         "BDD",
-        "Agile"
+        "Agile",
+        "CI/CD",
+        "DevOps"
       ]
     },
     {
       "name": "Business Skills",
       "level": "master",
       "keywords": [
-        "System Maintenance",
-        "Test Automation",
-        "CI/CD"
+        "Communication and negotiation",
+        "Project management and planning",
+        "Problem solving",
+        "Networking"
       ]
     },
     {
       "name": "IT Skills",
       "level": "master",
       "keywords": [
-        "Cloud",
         "Linux",
         "Jenkins",
         "Docker"
       ]
     },
     {
-      "name": "Programming",
+      "name": "IT Skills",
       "level": "intermediate",
       "keywords": [
-        "Node",
-        "JS",
+        "Elastic",
+        "Microsoft",
+        "Virtualization"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "advanced",
+      "keywords": [
         "Groovy"
       ]
     },
     {
-      "name": "Project",
+      "name": "Programming",
       "level": "intermediate",
       "keywords": [
-        "Atlassian",
-        "TFS",
-        "Git"
+        "JS"
+      ]
+    },
+
+    {
+      "name": "Other",
+      "level": "master",
+      "keywords": [
+        "Zsh Junkie",
+        "Documentation Overlord"
       ]
     }
   ],
@@ -209,7 +227,7 @@
         "Jenkins, Cucumber, TestCafe, SonarCube, CI/CD, SCRUM, Nexus",
         "Angular, NPM"
       ],
-      "roles": "DevOps Engineer, Tester"
+      "roles": "DevOps Engineer, Developer @Test"
     },
     {
       "company": "Telefónica Germany GmbH",
@@ -229,7 +247,7 @@
       "keywords": [
         "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk & OBAS, KeyCloak"
       ],
-      "roles": "System Architect"
+      "roles": "System Admin/Architect"
     }
   ]
 }

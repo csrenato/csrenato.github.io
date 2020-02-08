@@ -2,7 +2,7 @@
   "basics": {
     "name": "Renato Ćurić",
     "label": "DevOps Engineer",
-    "summary": "DevOps Engineer mit über 7 Jahren Branchenerfahrung, der sich mit der Entwicklung spezialisierter Lösungen auf Basis von CI / CD Verfahren auskennt. Ständige Unterstützung der Kollegen bei verschiedenen Projekten und Themen, von der Telekommunikation bis zur Bankenbranche.",
+    "summary": "IT-Experte mit mehr als 10 Jahren Erfahrung in der Branche. Als Spezialist für kundenspezifische Softwarelösungen unterstütze ich Kollegen bei verschiedenen Projekten und Themen, von der Softwareentwicklung über die Architektur bis hin zu Softwarebereitstellungen und verschiedenen Arten von Integrationen. ",
     "website": "https://www.linkedin.com/in/RenatoCuric",
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
@@ -19,9 +19,11 @@
       "website": "http://www.king-ict.hr/",
       "position": "DevOps Engineer",
       "startDate": "2019-02",
-      "summary": "Als DevOps Engineer bei King ICT arbeite ich an der Implementierung von CI und CD Pipelines für verschiedene Projekte. Das am häufigsten verwendete Werkzeug ist Jenkins. Die komplette Konfiguration und Verwaltung der Pipeline wird auf Linux und Windows Servern durchgeführt. Verwaltung der Entwicklungsinfrastruktur wird auch durchgeführt.",
+      "summary": "Meine Hauptaufgabe bei King ICT ist es die CI/CD Strategie des Unternehmens zu entwerfen, zu entwickeln und umzusetzen. Durch die Erstellung einer soliden Wissensdatenbank und eines Deployment Frameworks können Softwareentwicklungsteams fast mühelos automatische Build und Deployment Pipelines implementieren.",
       "highlights": [
-        "CI-Implementierung in laufendem Projekt (Tomcat, OracleDB, Windows Server, Linux, Jenkins)"
+        "CI/CD in laufenden Projekten erfolgreich implementiert",
+        "Entwickelte Software-Bereitstellungsbibliothek",
+        "Kernmitglied des Testival.eu Teams"
       ]
     },
     {
@@ -93,32 +95,35 @@
     {
       "institution": "Cucumber Training 2017",
       "courses": [
-        "2-tägiger Workshop mit Seb Rose"
+        "2-tägiger Workshop"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Methodische Fähigkeiten",
+      "name": "Frameworks",
       "level": "fortgeschritten",
       "keywords": [
         "SCRUM",
         "BDD",
-        "Agile"
+        "Agile",
+        "CI/CD",
+        "DevOps"
       ]
     },
     {
       "name": "Berufsqualifikationen",
-      "level": "Meister",
+      "level": "meister",
       "keywords": [
-        "System Maintenance",
-        "Test Automation",
-        "CI/CD"
+        "Kommunikation und Verhandlung",
+        "Projektmanagement und Planung",
+        "Problemlösungskompetenz",
+        "Networking"
       ]
     },
     {
       "name": "Informatikkenntnisse",
-      "level": "Meister",
+      "level": "meister",
       "keywords": [
         "Cloud",
         "Linux",
@@ -127,21 +132,34 @@
       ]
     },
     {
-      "name": "Programmierung",
-      "level": "durchschnittlich",
+      "name": "Informatikkenntnisse",
+      "level": "fortgeschritten",
       "keywords": [
-        "Node",
-        "JS",
+        "Elastic",
+        "Microsoft",
+        "Virtualization"
+      ]
+    },
+    {
+      "name": "Programmierung",
+      "level": "fortgeschritten",
+      "keywords": [
         "Groovy"
       ]
     },
     {
-      "name": "Projekt",
+      "name": "Programmierung",
       "level": "durchschnittlich",
       "keywords": [
-        "Atlassian",
-        "TFS",
-        "Git"
+        "JS"
+      ]
+    },
+    {
+      "name": "Andere",
+      "level": "maister",
+      "keywords": [
+        "Zsh Junkie",
+        "Documentation Overlord"
       ]
     }
   ],
