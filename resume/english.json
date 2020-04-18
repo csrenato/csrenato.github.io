@@ -2,14 +2,14 @@
   "basics": {
     "name": "Renato Ćurić",
     "label": "DevOps Engineer",
-    "summary": "IT Professional with 10+ years of experience in the industry. Specializing in custom software solutions, Renato provides support for colleagues on various projects and topics, ranging from software development, architecture, deployments, different types of integrations and more.",
+    "summary": "IT Professional with over 10 years of experience in the industry. Specializing in custom software solutions, Renato provides support for colleagues on various projects and topics, ranging from software development, architecture, deployments, different types of integrations and more.",
     "website": "https://www.linkedin.com/in/RenatoCuric",
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
     "picture": true,
     "location": {
-      "postalCode": "10000",
-      "city": "Zagreb",
+      "postalCode": "10437",
+      "city": "Bestovje, Sveta Nedjelja",
       "countryCode": "Croatia"
     }
   },
@@ -23,6 +23,7 @@
       "highlights": [
         "Successfuly implemented CI/CD in ongoing projects",
         "Developed Software Deployment Library",
+        "Developed In-House Application Performance Tool",
         "Core member of Testival.eu Team"
       ]
     },
@@ -36,7 +37,7 @@
       "highlights": [
         "Implemented e2e testing infrastructure",
         "Successful contribution to ongoing projects",
-        "Improvement in german language skills",
+        "Improved german language skills",
         "Talks on local meetups and conferences"
       ]
     },
