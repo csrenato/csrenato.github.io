@@ -10,8 +10,8 @@
   "scripts": {
     "preview": "preview",
     "deploy": "cp public/* .",
-    "previewEnglish": "resume serve -r resume/english.json -p 420 english",
-    "previewGerman": "resume serve -r resume/german.json -p 421 german",
+    "previewEnglish": "cp profile.png public | true && cp public/index.html index.html | true && resume serve -r resume/english.json -p 420 english",
+    "previewGerman": "p profile.png public | true && cp public/index.html index.html | true && resume serve -r resume/german.json -p 421 german",
     "previewSkeleton": "resume serve -r resume/skeleton.json -p 422 english"
   },
   "bin": {
