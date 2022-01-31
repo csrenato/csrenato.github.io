@@ -3,13 +3,12 @@
     "name": "Renato Ćurić",
     "label": "DevOps Engineer",
     "summary": "IT Professional with over 10 years of experience in the industry. Specializing in custom software solutions, Renato provides support for colleagues on various projects and topics, ranging from software development, architecture, deployments, different types of integrations and more.",
-    "website": "https://www.linkedin.com/in/RenatoCuric",
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
     "picture": true,
     "location": {
       "postalCode": "10437",
-      "city": "Bestovje, Sveta Nedjelja",
+      "city": "Bestovje, Sveta Nedelja",
       "countryCode": "Croatia"
     }
   },
@@ -19,12 +18,13 @@
       "website": "http://www.king-ict.hr/",
       "position": "DevOps Engineer",
       "startDate": "2019-02",
-      "summary": "At King ICT, my primary task is to design, develop and implement the company's CI/CD strategy. By creating a solid knowledge base and deployment framework, software development teams can almost effortlessly implement automatic build and deployment pipelines.",
+      "summary": "At King ICT, my primary task is to design, develop and implement the company's CI/CD strategy and to assist in the development process. By creating a solid knowledge base and deployment framework, software development teams can almost effortlessly implement automatic build and deployment pipelines.",
       "highlights": [
         "Successfuly implemented CI/CD in ongoing projects",
         "Developed Software Deployment Library",
         "Developed In-House Application Performance Tool",
-        "Core member of Testival.eu Team"
+        "Core member of Testival.eu Team",
+        "Consultant for System Architecture, Security and Custom Software Implementations"
       ]
     },
     {
@@ -98,12 +98,24 @@
       "courses": [
         "2 day workshop"
       ]
+    },
+    {
+      "institution": "Oracle Cloud Certification 2021",
+      "courses": [
+        "Oracle Cloud Infrastructure 2021 Certified Architect Associate (23.11.2021 - 23.11.2023)"
+      ]
+    },
+    {
+      "institution": "RedHat Openshift Training 2021",
+      "courses": [
+        "Red Hat OpenShift I: Containers & Kubernetes (DO180)"
+      ]
     }
   ],
   "skills": [
     {
       "name": "Frameworks",
-      "level": "advanced",
+      "level": "master",
       "keywords": [
         "SCRUM",
         "BDD",
@@ -128,33 +140,41 @@
       "keywords": [
         "Linux",
         "Jenkins",
-        "Docker"
-      ]
-    },
-    {
-      "name": "IT Skills",
-      "level": "intermediate",
-      "keywords": [
-        "Elastic",
-        "Microsoft",
-        "Virtualization"
+        "Docker",
+        "Ansible",
+        "APM",
+        "Centos Linux",
+        "Containers",
+        "Debian Linux",
+        "Docker",
+        "Openshift",
+        "Elasticsearch",
+        "Grafana",
+        "Prometheus",
+        "Gitlab",
+        "Keycloak",
+        "Kibana",
+        "Kubernetes",
+        "Logstash",
+        "PostgreSQL",
+        "HA",
+        "Clustering",
+        "DR",
+        "RabbitMQ",
+        "Redis",
+        "Tomcat",
+        "Wildlfy"
       ]
     },
     {
       "name": "Programming",
       "level": "advanced",
       "keywords": [
-        "Groovy"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "intermediate",
-      "keywords": [
+        "Groovy",
+        "Bash",
         "JS"
       ]
     },
-
     {
       "name": "Other",
       "level": "master",
@@ -218,6 +238,50 @@
     }
   ],
   "projects": [
+    {
+      "company": "Ministry of Physical Planning, Construction and State Property",
+      "name": "Electronic Construction Diary",
+      "description": "Web application for monitoring of the construction process. It covers the process from obtaining a building permit and registration of the construction site to the technical inspection of the constructed building. The complete infrastructure is designed and deployed on the National Cloud Infrastructure (CDU).",
+      "website": "https://mpgi.gov.hr/",
+      "keywords": [
+        "React, Spring Boot, Jenkins, Grafana, Elasticsearch, Logstash, Prometheus",
+        "Keycloak, Postgres12, Centos Linux, NGINX"  
+      ],
+      "roles": "DevOps Engineer, System Architect"
+    },
+    {
+      "company": "Ministry of the Interior",
+      "name": "Drone Fleet Manager",
+      "description": "SPA application for managing drone fleet and coressponding equipment. My duties included installing and configuring Oracle DB, Keycloak IAM, CI/CD infrastructure as well as supporting the development process.",
+      "website": "https://mup.gov.hr",
+      "keywords": [
+        "Angular, Spring Boot",
+        "Keycloak, Oracle 12c DB, Jenkins, Centos Linux"  
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "Croatian Motorways Ltd",
+      "name": "Electronic Toll Collection",
+      "description": "System that simplifies recording and billing of tickets (Tolls). The system consists of 3 applications: web and mobile applications for end users and backoffice application. The system is dependant on various support systems that are deployed on both Windows and Linux servers. For this project my main responsibilities were the installation and configuration of: RabbitMQ cluster, Redis cluster, Keycloak IAM cluster, implementing custom application performance monitoring solution, developing and implementing the CI/CD strategy as well as providing support in production in the form of system upgrades and maintenance.",
+      "website": "https://www.hac.hr",
+      "keywords": [
+        "React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Logstash, Prometheus, Jenkins",
+        "Groovy, Powershell, RabbitMQ, Redis, Keycloak"  
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "Croatian Bureau of Statistics",
+      "name": "Croatian Census 2021",
+      "description": "Croatian Census 2021 was fully digitalized. The data were collected by using 2 front facing applications; 1 for residents and 1 for Croatian Bureau of Statistics employees. The 3rd application was used for data and user management, as well as generating and listing reports. My duties were involved around designing the production system as well as orchestrating the deployment and DR strategy for the applications. I have successfully implemented various subsystems and clusters, the most prominent ones were: Keycloak IAM clustering and PostgreSQL clustering. I've have successfully designed and implemented the monitoring and alerting solution based on Prometheus, Grafana and Elasticsearch. By working closely with the infrastructure provider, we have ensured 0 downtime for our applications as well as 100% availability through the whole census process.",
+      "website": "https://www.dzs.hr/",
+      "keywords": [
+        "PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, Prometheus",
+        "Sentry Monitoring, Jasper Reporting, Redis, NGINX, PostgreSQL"  
+      ],
+      "roles": "DevOps Engineer, System Architect"
+    },
     {
       "company": "Consors Bank Germany",
       "name": "Web Page Rework",
