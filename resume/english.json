@@ -198,7 +198,7 @@
       "company": "Consors Bank Germany",
       "name": "Web Page Rework",
       "description": "Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the e2e testing framework. My other duties included the implementation of Jenkins pipelines.",
-      "website": "http://www.consorsbank.de",
+      "website": "https://www.consorsbank.de",
       "keywords": [
         "Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus"
       ],
@@ -208,7 +208,7 @@
       "company": "Telefónica Germany GmbH",
       "name": "AWS Infrastructure for Analytics Project",
       "description": "Built AWS infrastructure for analytics project.",
-      "website": "http://www.telefonica.de",
+      "website": "https://www.telefonica.de",
       "keywords": [
         "AWS, Linux, SparkBeyond, CentOS"
       ],
@@ -218,7 +218,7 @@
       "company": "C.A. Internet d.o.o.",
       "name": "WebPresence",
       "description": "Integrated a centralized web-hosting platform for Deutsche Telekom Group, contributing to system architecture and PoC.",
-      "website": "http://www.telefonica.de",
+      "website": "https://www.croadria.com/",
       "keywords": [
         "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak"
       ],
