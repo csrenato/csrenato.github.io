@@ -30,7 +30,7 @@
       {{/if}}
       {{#if position}}
       <h4 class="position">
-        {{position}}
+        {{position}} ({{employment}})
       </h4>
       {{/if}}
       {{#if website}}
@@ -38,11 +38,22 @@
         <a href="{{website}}">{{website}}</a>
       </div>
       {{/if}}
+
+
+
+
+
+
+
+
+      
       {{#if summary}}
       <div class="summary">
         <p>{{summary}}</p>
       </div>
       {{/if}}
+
+
       {{#if highlights.length}}
       <ul class="highlights">
         {{#each highlights}}

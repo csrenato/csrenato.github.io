@@ -2,7 +2,10 @@
   "basics": {
     "name": "Renato Ćurić",
     "label": "DevOps Engineer",
-    "summary": "IT Professional with over 10 years of experience in the industry. Specializing in custom software solutions, Renato provides support for colleagues on various projects and topics, ranging from software development, architecture, deployments, different types of integrations and more.",
+    "summary": [
+      "IT professional with a 15-year career in the tech industry. Specializing in custom software solutions, I provide  support across diverse projects, including system architecture, business automation, software testing, and integrations.",
+      "Since early 2022, I have been offering freelance services through my own company, demonstrating adaptability, entrepreneurial spirit, and a commitment to delivering IT services worldwide."
+    ],
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
     "picture": true,
@@ -14,31 +17,47 @@
   },
   "work": [
     {
+      "company": "TDE Thonhauser Data Engineering GmbH",
+      "website": "https://www.tde-group.com/",
+      "position": "DevOps Engineer and DevOps Team Lead",
+      "startDate": "2022-05",
+      "employment": "Freelance",
+      "summary": "Leading the DevOps team at TDE, I establish and maintain a robust DevOps culture. My responsibilities include designing and implementing scalable infrastructure solutions, streamlining deployment processes, and continuous improvement and innovation. I prioritize my team's well-being, providing mentorship and adapting leadership styles to individual team members needs. Work is fully remote with ad-hoc customer site visits.",
+      "highlights": [
+        "Started self-employment",
+        "Promoted to Team Lead",
+        "Redesigned and implemented new CI/CD infrastructure"
+      ]
+    },
+    {
       "company": "King ICT d.o.o.",
       "website": "http://www.king-ict.hr/",
       "position": "DevOps Engineer",
       "startDate": "2019-02",
-      "summary": "At King ICT, my primary task is to design, develop and implement the company's CI/CD strategy and to assist in the development process. By creating a solid knowledge base and deployment framework, software development teams can almost effortlessly implement automatic build and deployment pipelines.",
+      "endDate": "2022-03",
+      "employment": "Full-time",
+      "summary": "At King ICT, I designed, developed, and implemented the company's CI/CD strategy, facilitating automatic build and deployment pipelines for software development teams. I contributed to government strategic projects and developed essential tools. I also served as a consultant for system architecture, security, and custom software implementations.",
       "highlights": [
-        "Successfuly implemented CI/CD in ongoing projects",
-        "Developed Software Deployment Library",
+        "Implemented CI/CD framework",
         "Developed In-House Application Performance Tool",
-        "Core member of Testival.eu Team",
-        "Consultant for System Architecture, Security and Custom Software Implementations"
+        "Working on strategic projects",
+        "Obtained Oracle Cloud Infrastructure 2021 Certified Architect Associate (23.11.2021 - 23.11.2023) certification",
+        "Red Hat OpenShift I: Containers & Kubernetes (DO180)"
       ]
     },
     {
-      "company": "Comsysto Reply d.o.o.",
+      "company": "Comsysto Reply GmbH",
       "website": "https://comsystoreply.de",
       "position": "DevOps Engineer",
       "startDate": "2017-02",
       "endDate": "2019-02",
-      "summary": "Working as a DevOps Engineer at Comsysto involved several tasks. Support of colleagues in internet tasks as well as contribution to own project. Most of the work revolves around developing and deploying infrastructure and automation scripts.",
+      "employment": "Full-time",
+      "summary": "As a DevOps Engineer at Comsysto, I supported colleagues in internal business matters and contributed to client projects, focusing on infrastructure development, automation, and scripting. I improved my German language skills and actively participated in local meetups and conferences.",
       "highlights": [
         "Implemented e2e testing infrastructure",
-        "Successful contribution to ongoing projects",
-        "Improved german language skills",
-        "Talks on local meetups and conferences"
+        "Contributed to ongoing projects",
+        "Talks at local meetups and conferences",
+        "Trainings: AWS Certified Solutions Architect, Cucumber, Jenkins CJE, SCRUM Master Training 2018"
       ]
     },
     {
@@ -47,10 +66,12 @@
       "position": "System Administrator",
       "startDate": "2015-10",
       "endDate": "2017-02",
-      "summary": "In Croadria, I worked mainly as a Linux system administrator. Daily tasks included Linux server administration, customer support, installation and configuration of new systems (HW and SW), and data center operations (management of tape libraries, servers, switches). Customer support included debugging PHP and shell scripts, as well as various other requirements (customized configurations, website and email migrations).",
+      "employment": "Full-time",
+      "summary": "As a Linux system administrator at Croadria, I managed Linux servers, provided customer support, and handled data center operations. I successfully upgraded platforms and worked on international projects.",
       "highlights": [
-        "Successful platform upgrades",
-        "Certification"
+        "Managed platform upgrades",
+        "Obtained PLESK and PBAS certifications",
+        "Contributed to international projects"
       ]
     },
     {
@@ -59,9 +80,23 @@
       "position": "Microsoft System Administrator",
       "startDate": "2012-05",
       "endDate": "2015-10",
-      "summary": "As a Microsoft system administrator in Iskon, I worked in a fast moving, constantly changing environment. My main responsibility was to answer service desk requests (jira ticket, e-mail, phone) as well as to maintain various Microsoft-based systems (SCCM, antivirus server, multiple data servers, domain controllers, print servers ...).",
+      "employment": "Full-time",
+      "summary": "In Iskon, I maintained Microsoft-based systems and responded to service desk requests. I received recognition for consistently delivering high-quality service and attended Microsoft-related technology conferences.",
       "highlights": [
-        "The best department in internal surveys for 3 years in a row"
+        "Received departmental recognition",
+        "Attended Microsoft-related conferences"
+      ]
+    },
+    {
+      "company": "Iskon Internet d.d.",
+      "website": "https://www.iskon.hr",
+      "position": "Technical Support Agent",
+      "startDate": "2009-05",
+      "endDate": "2012-05",
+      "employment": "Part-time",
+      "summary": "As a Technical Support Agent at Iskon, I provided assertive and effective technical support to residential and business customers for internet, IPTV, and email/web hosting issues, ensuring high customer satisfaction.",
+      "highlights": [
+        "Recognized for work accomplishments and customer satisfaction"
       ]
     }
   ],
@@ -74,123 +109,32 @@
       ],
       "startDate": "2005-09",
       "endDate": "2008-05"
-    },
-    {
-      "institution": "SCRUM Master Trainig 2018",
-      "courses": [
-        "Professional SCRUM Master training course"
-      ]
-    },
-    {
-      "institution": "Jenkins CJE Training 2018",
-      "courses": [
-        "Self paced training"
-      ]
-    },
-    {
-      "institution": "AWS Certified Solutions Architect Associate 2018",
-      "courses": [
-        "Self paced training"
-      ]
-    },
-    {
-      "institution": "Cucumber Training 2017",
-      "courses": [
-        "2 day workshop"
-      ]
-    },
-    {
-      "institution": "Oracle Cloud Certification 2021",
-      "courses": [
-        "Oracle Cloud Infrastructure 2021 Certified Architect Associate (23.11.2021 - 23.11.2023)"
-      ]
-    },
-    {
-      "institution": "RedHat Openshift Training 2021",
-      "courses": [
-        "Red Hat OpenShift I: Containers & Kubernetes (DO180)"
-      ]
     }
   ],
   "skills": [
     {
       "name": "Frameworks",
-      "level": "master",
       "keywords": [
-        "SCRUM",
-        "BDD",
-        "Agile",
-        "CI/CD",
-        "DevOps"
+        "SCRUM, BDD, DevOps"
       ]
     },
     {
       "name": "Business Skills",
-      "level": "master",
       "keywords": [
-        "Communication and negotiation",
-        "Project management and planning",
-        "Problem solving",
-        "Networking"
+        "Communication, Project Management, Problem Solving, Networking"
       ]
     },
     {
       "name": "IT Skills",
-      "level": "master",
       "keywords": [
-        "Linux",
-        "Jenkins",
-        "Docker",
-        "Ansible",
-        "APM",
-        "Centos Linux",
-        "Containers",
-        "Debian Linux",
-        "Docker",
-        "Openshift",
-        "Elasticsearch",
-        "Grafana",
-        "Prometheus",
-        "Gitlab",
-        "Keycloak",
-        "Kibana",
-        "Kubernetes",
-        "Logstash",
-        "PostgreSQL",
-        "HA",
-        "Clustering",
-        "DR",
-        "RabbitMQ",
-        "Redis",
-        "Tomcat",
-        "Wildlfy"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "advanced",
-      "keywords": [
-        "Groovy",
-        "Bash",
-        "JS"
+        "Linux and Microsoft Systems, CI/CD, Containers, Configuration Management, Monitoring, Databases, HA and Clustering, Identity and Access Management, Web and Application Servers"
       ]
     },
     {
       "name": "Other",
-      "level": "master",
       "keywords": [
-        "Zsh Junkie",
-        "Documentation Overlord"
+        "Software Testing"
       ]
-    }
-  ],
-
-  "awards": [
-    {
-      "flavor": "award",
-      "title": "Silver Medal",
-      "date": "2016",
-      "awarder": "INOVA-MLADI"
     }
   ],
   "publications": [
@@ -199,28 +143,100 @@
       "publisher": "Comsysto Reply GmbH",
       "releaseDate": "2017",
       "website": "https://comsystoreply.de/blog-post/private-cloud-infrastructure-with-opennebula",
-      "summary": "Do you want to leverage the power of cloud computing but you don't want to use public cloud solutions? With OpenNebula, you can accomplish the goal of private cloud while using already available hardware in your data center."
+      "summary": "Explore how to leverage private cloud computing with OpenNebula, utilizing existing data center hardware for a cost-effective solution."
     },
     {
       "name": "e2e Testing With TestCafe and Cucumber.JS",
       "publisher": "Comsysto Reply GmbH",
       "releaseDate": "2018",
       "website": "https://comsystoreply.de/blog-post/e2e-testing-with-testcafe-and-cucumber-js",
-      "summary": "Testing web applications automatically from the user perspective has always been a tedious task. Most of the time the automation setup would have been fragile and prone to breaking. It would put a big strain on Operations because of the rapid change in software requirements. Documenting the actual tests so that business and development can have use of the work done has also been cumbersome and that's the reason we would avoid doing it."
+      "summary": "Learn about effective end-to-end testing for web applications using TestCafe and Cucumber.JS, improving automation and test stability."
+    }
+  ],
+  "projects": [
+    {
+      "company": "Croatian Ministry of Physical Planning, Construction and State Property",
+      "name": "Electronic Construction Diary",
+      "description": "Web application for monitoring of the construction process. It covers the process from obtaining a building permit and registration of the construction site to the technical inspection of the constructed building. The complete infrastructure is designed and deployed on the National Cloud Infrastructure (CDU). My primary task was to design and implement all infrastructure components (Keycloak Cluster, ES Cluster, Postgres Cluster, Web and App servers, Jenkins, Grafana).",
+      "website": "https://mpgi.gov.hr/",
+      "keywords": [
+        "React, Spring Boot, Jenkins, Grafana, Elasticsearch, Keycloak, Postgres, Centos Linux, NGINX"
+      ],
+      "roles": "DevOps Engineer, System Architect"
+    },
+    {
+      "company": "Croatian Ministry of the Interior",
+      "name": "Drone Fleet Manager",
+      "description": "SPA application for managing drone fleet and coressponding equipment. My duties included installing and configuring Oracle DB, Keycloak IAM, CI/CD infrastructure as well as supporting the development process.",
+      "website": "https://mup.gov.hr",
+      "keywords": [
+        "Angular, Spring Boot, Keycloak, Oracle 12c DB, Jenkins, Centos Linux"
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "Croatian Motorways Ltd",
+      "name": "Electronic Toll Collection",
+      "description": "System that simplifies recording and billing of tickets (Tolls). The system consists of 3 applications: web and mobile applications for end users and backoffice application. The system is dependant on various support systems that are deployed on both Windows and Linux servers. For this project my main responsibilities were the installation and configuration of: RabbitMQ cluster, Redis cluster, Keycloak IAM cluster, implementing custom application performance monitoring solution, developing and implementing the CI/CD strategy as well as providing support in production in the form of system upgrades and maintenance.",
+      "website": "https://www.hac.hr",
+      "keywords": [
+        "React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Keycloak, RabbitMQ, Redis, Groovy, Powershell"
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "Croatian Bureau of Statistics",
+      "name": "Croatian Census 2021",
+      "description": "Croatian Census 2021 was fully digitalized. I was responsible for designing and implementing the infrastructure, deployment, monitoring and DR strategy. I have successfully implemented various subsystems and clusters: Keycloak IAM and PostgreSQL. I've have successfully designed and implemented the monitoring and alerting solution based on Prometheus, Grafana and Elasticsearch. By working closely with the infrastructure provider, we have ensured 0 downtime for our applications as well as 100% availability through the whole census process.",
+      "website": "https://www.dzs.hr/",
+      "keywords": [
+        "PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, PostgreSQL, Sentry, NGINX"
+      ],
+      "roles": "DevOps Engineer, System Architect"
+    },
+    {
+      "company": "Consors Bank Germany",
+      "name": "Web Page Rework",
+      "description": "Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the e2e testing framework. My other duties included the implementation of Jenkins pipelines.",
+      "website": "http://www.consorsbank.de",
+      "keywords": [
+        "Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus"
+      ],
+      "roles": "DevOps Engineer, Developer @Test"
+    },
+    {
+      "company": "Telefónica Germany GmbH",
+      "name": "AWS Infrastructure for Analytics Project",
+      "description": "Built AWS infrastructure for analytics project.",
+      "website": "http://www.telefonica.de",
+      "keywords": [
+        "AWS, Linux, SparkBeyond, CentOS"
+      ],
+      "roles": "DevOps Engineer"
+    },
+    {
+      "company": "C.A. Internet d.o.o.",
+      "name": "WebPresence",
+      "description": "Integrated a centralized web-hosting platform for Deutsche Telekom Group, contributing to system architecture and PoC.",
+      "website": "http://www.telefonica.de",
+      "keywords": [
+        "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak"
+      ],
+      "roles": "System Administrator, System Architect"
     }
   ],
   "interests": [
     {
-      "name": "sports"
+      "name": "Extreme Sports"
     },
     {
-      "name": "music"
+      "name": "Music"
     },
     {
-      "name": "reading"
+      "name": "Comics & SF"
     },
     {
-      "name": "meetups"
+      "name": "Gardening & Cooking"
     }
   ],
   "languages": [
@@ -235,84 +251,6 @@
     {
       "language": "English",
       "level": "Expert"
-    }
-  ],
-  "projects": [
-    {
-      "company": "Ministry of Physical Planning, Construction and State Property",
-      "name": "Electronic Construction Diary",
-      "description": "Web application for monitoring of the construction process. It covers the process from obtaining a building permit and registration of the construction site to the technical inspection of the constructed building. The complete infrastructure is designed and deployed on the National Cloud Infrastructure (CDU).",
-      "website": "https://mpgi.gov.hr/",
-      "keywords": [
-        "React, Spring Boot, Jenkins, Grafana, Elasticsearch, Logstash, Prometheus",
-        "Keycloak, Postgres12, Centos Linux, NGINX"  
-      ],
-      "roles": "DevOps Engineer, System Architect"
-    },
-    {
-      "company": "Ministry of the Interior",
-      "name": "Drone Fleet Manager",
-      "description": "SPA application for managing drone fleet and coressponding equipment. My duties included installing and configuring Oracle DB, Keycloak IAM, CI/CD infrastructure as well as supporting the development process.",
-      "website": "https://mup.gov.hr",
-      "keywords": [
-        "Angular, Spring Boot",
-        "Keycloak, Oracle 12c DB, Jenkins, Centos Linux"  
-      ],
-      "roles": "DevOps Engineer"
-    },
-    {
-      "company": "Croatian Motorways Ltd",
-      "name": "Electronic Toll Collection",
-      "description": "System that simplifies recording and billing of tickets (Tolls). The system consists of 3 applications: web and mobile applications for end users and backoffice application. The system is dependant on various support systems that are deployed on both Windows and Linux servers. For this project my main responsibilities were the installation and configuration of: RabbitMQ cluster, Redis cluster, Keycloak IAM cluster, implementing custom application performance monitoring solution, developing and implementing the CI/CD strategy as well as providing support in production in the form of system upgrades and maintenance.",
-      "website": "https://www.hac.hr",
-      "keywords": [
-        "React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Logstash, Prometheus, Jenkins",
-        "Groovy, Powershell, RabbitMQ, Redis, Keycloak"  
-      ],
-      "roles": "DevOps Engineer"
-    },
-    {
-      "company": "Croatian Bureau of Statistics",
-      "name": "Croatian Census 2021",
-      "description": "Croatian Census 2021 was fully digitalized. The data were collected by using 2 front facing applications; 1 for residents and 1 for Croatian Bureau of Statistics employees. The 3rd application was used for data and user management, as well as generating and listing reports. My duties were involved around designing the production system as well as orchestrating the deployment and DR strategy for the applications. I have successfully implemented various subsystems and clusters, the most prominent ones were: Keycloak IAM clustering and PostgreSQL clustering. I've have successfully designed and implemented the monitoring and alerting solution based on Prometheus, Grafana and Elasticsearch. By working closely with the infrastructure provider, we have ensured 0 downtime for our applications as well as 100% availability through the whole census process.",
-      "website": "https://www.dzs.hr/",
-      "keywords": [
-        "PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, Prometheus",
-        "Sentry Monitoring, Jasper Reporting, Redis, NGINX, PostgreSQL"  
-      ],
-      "roles": "DevOps Engineer, System Architect"
-    },
-    {
-      "company": "Consors Bank Germany",
-      "name": "Web Page Rework",
-      "description": "Work is done remotely from Zagreb (Croatia) by a cross functional Scrum team. We are re-building the customer's website using modern technologies, front end is coded in Angular and the back end using Java Spring Boot. My tasks include writing e2e tests in JS using the TestCafe framework combined with Cucumber as well as the maintenance of the Jenkins and various build scripts. Providing support to internal and external colleagues regarding DevOps topics (mostly regarding CI/CD infrastructure).",
-      "website": "http://www.consorsbank.de",
-      "keywords": [
-        "Java 8, Spring Boot, Junit, Gradle",
-        "Jenkins, Cucumber, TestCafe, SonarCube, CI/CD, SCRUM, Nexus",
-        "Angular, NPM"
-      ],
-      "roles": "DevOps Engineer, Developer @Test"
-    },
-    {
-      "company": "Telefónica Germany GmbH",
-      "name": "Building AWS infrastructure for analytics project at TEF",
-      "description": "Building the AWS infrastructure for a short term analytics project at Telefonica Germany. The infrastructure was based on best practices recommended by AWS ( 1 instance total). CentOS was the Linux flavor used in this project. Various configuration changes we're performed on the Linux VM.",
-      "website": "http://www.telefonica.de",
-      "keywords": [
-        "AWS, Linux, SparkBeyond, CentOS"
-      ],
-      "roles": "DevOps Engineer"
-    },
-    {
-      "company": "C.A. Internet d.o.o.",
-      "name": "WebPresence",
-      "description": "Integration of a new centralized web-hosting platform for Deutsche Telekom Group. I collaborated with other team members in means of system architecture and integration as well as PoC. Presented the project in front of the Committee for evaluation in Magyar Telekom.",
-      "website": "http://www.telefonica.de",
-      "keywords": [
-        "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk & OBAS, KeyCloak"
-      ],
-      "roles": "System Admin/Architect"
     }
   ]
 }
