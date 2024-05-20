@@ -322,6 +322,7 @@ section {
 #work .item:last-child,
 #volunteer .item:last-child,
 #awards .item:last-child,
+#projects .item:last-child,
 #publications .item:last-child {
   margin-bottom: 0;
 }
@@ -332,13 +333,12 @@ section {
   margin-bottom: 1.4rem;
 }
 
-#work .website,
+
 #projects .website,
 #publications .website {
   margin-bottom: 0.5rem;
 }
 
-#work .summary,
 #volunteer .summary,
 #awards .summary {
   margin-bottom: 1.2rem;
@@ -347,7 +347,11 @@ section {
 #work .summary,
 #projects .summary,
 #publications .summary {
-  margin-bottom: 1.0rem;
+  margin-bottom: 0.8rem;
+}
+
+#projects .stack {
+  margin-bottom: 1.5rem;
 }
 
 #skills .name,
