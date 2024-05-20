@@ -3,7 +3,6 @@
   <div class="left">
     <h2>Education</h2>
   </div>
-
   <div class="right">
     {{#each resume.education}}
     <div class="item">
@@ -17,7 +16,6 @@
         <span class="endDate">
           - {{endDate}}
         </span>
-
         {{/if}}
       </div>
       {{#if institution}}
@@ -33,7 +31,6 @@
       {{#if gpa}}
       <em class="gpa">Graduation: {{gpa}}</em>
       {{/if}}
-
       {{#if courses.length}}
       <ul class="courses">
         {{#each courses}}

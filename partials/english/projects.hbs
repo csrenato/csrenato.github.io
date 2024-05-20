@@ -8,47 +8,39 @@
     {{#each resume.projects}}
     <div class="item">
       {{#if company}}
-      <h1 class="publisher">
+      <h3 class="publisher">
         {{company}}
-      </h1>
-      {{/if}}
-      {{#if name}}
-      <h3 class="name">
-        {{name}}
       </h3>
       {{/if}}
-
+      {{#if name}}
+      <h4 class="name">
+        {{name}}
+      </h4>
+      {{/if}}
       {{#if website}}
       <div class="website">
         <a href="{{website}}">Link</a>
       </div>
       {{/if}}
-      <br></br>
       <h4>Summary</h4>
       {{#if description}}
-      <div class="description">
+      <div class="summary">
         <p>{{description}}</p>
       </div>
       {{/if}}
-      <br></br>
       <h4>Roles</h4>
-
       {{#if roles}}
-      <p class="name">
+      <p class="summary">
         {{roles}}
       </p>
       {{/if}}
-      
       <h4>Stack</h4>
-      {{#if keywords.length}}
-      <ul class="keywords inline comma">
-        {{#each keywords}}
-        <li>{{.}}</li>
-        {{/each}}
-      </ul>
+      {{#if keywords}}
+      <p class="summary">
+        {{keywords}}
+      </p>
       <br></br>
       {{/if}}
-
     </div>
     {{/each}}
   </div>
