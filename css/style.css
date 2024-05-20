@@ -345,7 +345,8 @@ section {
 }
 
 #work .summary,
-#projects .summary #publications .summary {
+#projects .summary,
+#publications .summary {
   margin-bottom: 1.0rem;
 }
 
