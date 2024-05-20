@@ -8,7 +8,7 @@
     ],
     "phone": "+385994967461",
     "email": "renato.curic@gmail.com",
-    "picture": true,
+    "picture": false,
     "location": {
       "postalCode": "10437",
       "city": "Bestovje, Sveta Nedelja",
@@ -18,28 +18,29 @@
   "work": [
     {
       "company": "TDE Thonhauser Data Engineering GmbH",
-      "website": "https://www.tde-group.com/",
+      "website": "https://www.tde-group.com",
       "position": "DevOps Engineer and DevOps Team Lead",
-      "startDate": "2022-05",
+      "startDate": "05.2022.",
       "employment": "Freelance",
       "summary": "Leading the DevOps team at TDE, I establish and maintain a robust DevOps culture. My responsibilities include designing and implementing scalable infrastructure solutions, streamlining deployment processes, and continuous improvement and innovation. I prioritize my team's well-being, providing mentorship and adapting leadership styles to individual team members needs. Work is fully remote with ad-hoc customer site visits.",
       "highlights": [
         "Started self-employment",
-        "Promoted to Team Lead",
-        "Redesigned and implemented new CI/CD infrastructure"
+        "Promote to team lead",
+        "Redesigned and implemented new CI/CD infrastructure",
+        "Implemented E2E testing infrastructure"
       ]
     },
     {
       "company": "King ICT d.o.o.",
-      "website": "http://www.king-ict.hr/",
+      "website": "http://www.king-ict.hr",
       "position": "DevOps Engineer",
-      "startDate": "2019-02",
-      "endDate": "2022-03",
+      "startDate": "02.2019.",
+      "endDate": "03.2022.",
       "employment": "Full-time",
       "summary": "At King ICT, I designed, developed, and implemented the company's CI/CD strategy, facilitating automatic build and deployment pipelines for software development teams. I contributed to government strategic projects and developed essential tools. I also served as a consultant for system architecture, security, and custom software implementations.",
       "highlights": [
         "Implemented CI/CD framework",
-        "Developed In-House Application Performance Tool",
+        "Developed in-house application performance tool",
         "Working on strategic projects",
         "Obtained Oracle Cloud Infrastructure 2021 Certified Architect Associate (23.11.2021 - 23.11.2023) certification",
         "Red Hat OpenShift I: Containers & Kubernetes (DO180)"
@@ -49,12 +50,12 @@
       "company": "Comsysto Reply GmbH",
       "website": "https://comsystoreply.de",
       "position": "DevOps Engineer",
-      "startDate": "2017-02",
-      "endDate": "2019-02",
+      "startDate": "02.2017.",
+      "endDate": "02.2019.",
       "employment": "Full-time",
       "summary": "As a DevOps Engineer at Comsysto, I supported colleagues in internal business matters and contributed to client projects, focusing on infrastructure development, automation, and scripting. I improved my German language skills and actively participated in local meetups and conferences.",
       "highlights": [
-        "Implemented e2e testing infrastructure",
+        "Implemented E2E testing infrastructure",
         "Contributed to ongoing projects",
         "Talks at local meetups and conferences",
         "Trainings: AWS Certified Solutions Architect, Cucumber, Jenkins CJE, SCRUM Master Training 2018"
@@ -64,8 +65,8 @@
       "company": "Croadria d.o.o.",
       "website": "https://www.croadria.com",
       "position": "System Administrator",
-      "startDate": "2015-10",
-      "endDate": "2017-02",
+      "startDate": "10.2015.",
+      "endDate": "02.2017.",
       "employment": "Full-time",
       "summary": "As a Linux system administrator at Croadria, I managed Linux servers, provided customer support, and handled data center operations. I successfully upgraded platforms and worked on international projects.",
       "highlights": [
@@ -78,8 +79,8 @@
       "company": "Iskon Internet d.d.",
       "website": "https://www.iskon.hr",
       "position": "Microsoft System Administrator",
-      "startDate": "2012-05",
-      "endDate": "2015-10",
+      "startDate": "05.2012.",
+      "endDate": "10.2015.",
       "employment": "Full-time",
       "summary": "In Iskon, I maintained Microsoft-based systems and responded to service desk requests. I received recognition for consistently delivering high-quality service and attended Microsoft-related technology conferences.",
       "highlights": [
@@ -91,8 +92,8 @@
       "company": "Iskon Internet d.d.",
       "website": "https://www.iskon.hr",
       "position": "Technical Support Agent",
-      "startDate": "2009-05",
-      "endDate": "2012-05",
+      "startDate": "05.2009.",
+      "endDate": "05.2012.",
       "employment": "Part-time",
       "summary": "As a Technical Support Agent at Iskon, I provided assertive and effective technical support to residential and business customers for internet, IPTV, and email/web hosting issues, ensuring high customer satisfaction.",
       "highlights": [
@@ -107,8 +108,8 @@
       "courses": [
         "Computer technician"
       ],
-      "startDate": "2005-09",
-      "endDate": "2008-05"
+      "startDate": "09.2005.",
+      "endDate": "05.2008."
     }
   ],
   "skills": [
@@ -146,7 +147,7 @@
       "summary": "Explore how to leverage private cloud computing with OpenNebula, utilizing existing data center hardware for a cost-effective solution."
     },
     {
-      "name": "e2e Testing With TestCafe and Cucumber.JS",
+      "name": "E2E Testing With TestCafe and Cucumber.JS",
       "publisher": "Comsysto Reply GmbH",
       "releaseDate": "2018",
       "website": "https://comsystoreply.de/blog-post/e2e-testing-with-testcafe-and-cucumber-js",
@@ -159,9 +160,7 @@
       "name": "Electronic Construction Diary",
       "description": "Web application for monitoring of the construction process. It covers the process from obtaining a building permit and registration of the construction site to the technical inspection of the constructed building. The complete infrastructure is designed and deployed on the National Cloud Infrastructure (CDU). My primary task was to design and implement all infrastructure components (Keycloak Cluster, ES Cluster, Postgres Cluster, Web and App servers, Jenkins, Grafana).",
       "website": "https://mpgi.gov.hr/",
-      "keywords": [
-        "React, Spring Boot, Jenkins, Grafana, Elasticsearch, Keycloak, Postgres, Centos Linux, NGINX"
-      ],
+      "keywords": "React, Spring Boot, Jenkins, Grafana, Elasticsearch, Keycloak, Postgres, Centos Linux, NGINX",
       "roles": "DevOps Engineer, System Architect"
     },
     {
@@ -179,9 +178,7 @@
       "name": "Electronic Toll Collection",
       "description": "System that simplifies recording and billing of tickets (Tolls). The system consists of 3 applications: web and mobile applications for end users and backoffice application. The system is dependant on various support systems that are deployed on both Windows and Linux servers. For this project my main responsibilities were the installation and configuration of: RabbitMQ cluster, Redis cluster, Keycloak IAM cluster, implementing custom application performance monitoring solution, developing and implementing the CI/CD strategy as well as providing support in production in the form of system upgrades and maintenance.",
       "website": "https://www.hac.hr",
-      "keywords": [
-        "React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Keycloak, RabbitMQ, Redis, Groovy, Powershell"
-      ],
+      "keywords": "React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Keycloak, RabbitMQ, Redis, Groovy, Powershell",
       "roles": "DevOps Engineer"
     },
     {
@@ -189,19 +186,15 @@
       "name": "Croatian Census 2021",
       "description": "Croatian Census 2021 was fully digitalized. I was responsible for designing and implementing the infrastructure, deployment, monitoring and DR strategy. I have successfully implemented various subsystems and clusters: Keycloak IAM and PostgreSQL. I've have successfully designed and implemented the monitoring and alerting solution based on Prometheus, Grafana and Elasticsearch. By working closely with the infrastructure provider, we have ensured 0 downtime for our applications as well as 100% availability through the whole census process.",
       "website": "https://www.dzs.hr/",
-      "keywords": [
-        "PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, PostgreSQL, Sentry, NGINX"
-      ],
+      "keywords": "PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, PostgreSQL, Sentry, NGINX",
       "roles": "DevOps Engineer, System Architect"
     },
     {
       "company": "Consors Bank Germany",
       "name": "Web Page Rework",
-      "description": "Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the e2e testing framework. My other duties included the implementation of Jenkins pipelines.",
+      "description": "Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the E2E testing framework. My other duties included the implementation of Jenkins pipelines.",
       "website": "https://www.consorsbank.de",
-      "keywords": [
-        "Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus"
-      ],
+      "keywords": "Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus",
       "roles": "DevOps Engineer, Developer @Test"
     },
     {
@@ -209,9 +202,7 @@
       "name": "AWS Infrastructure for Analytics Project",
       "description": "Built AWS infrastructure for analytics project.",
       "website": "https://www.telefonica.de",
-      "keywords": [
-        "AWS, Linux, SparkBeyond, CentOS"
-      ],
+      "keywords": "AWS, Linux, SparkBeyond, CentOS",
       "roles": "DevOps Engineer"
     },
     {
@@ -219,38 +210,27 @@
       "name": "WebPresence",
       "description": "Integrated a centralized web-hosting platform for Deutsche Telekom Group, contributing to system architecture and PoC.",
       "website": "https://www.croadria.com/",
-      "keywords": [
-        "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak"
-      ],
+      "keywords": "OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak",
       "roles": "System Administrator, System Architect"
     }
   ],
   "interests": [
     {
-      "name": "Extreme Sports"
-    },
-    {
-      "name": "Music"
-    },
-    {
-      "name": "Comics & SF"
-    },
-    {
-      "name": "Gardening & Cooking"
+      "name": "Sports, Music, Comics & SF, Gardening & Cooking"
     }
   ],
   "languages": [
     {
       "language": "Croatian",
-      "level": "Native"
+      "fluency": "Native"
     },
     {
       "language": "German",
-      "level": "Expert"
+      "fluency": "Full professional proficiency"
     },
     {
       "language": "English",
-      "level": "Expert"
+      "fluency": "Full professional proficiency"
     }
   ]
 }

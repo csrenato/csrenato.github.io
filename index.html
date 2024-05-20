@@ -175,7 +175,7 @@ blockquote:before {
 }
 
 li {
-  padding: 0.4rem 0 0.4rem 1rem;
+  padding: 0.1rem 0 0.1rem 0.5rem;
 
   line-height: 1.8;
 }
@@ -315,9 +315,11 @@ section {
 
 #work .item,
 #volunteer .item,
-#awards .item,
+#awards .item {
+  margin-bottom: 1.5rem;
+}
 #publications .item {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 #work .item:last-child,
@@ -329,31 +331,42 @@ section {
 
 #work .website,
 #volunteer .website,
-#awards .website,
-#publications .website {
+#awards .website {
   margin-bottom: 1.4rem;
 }
+#work .website,
+#projects .website,
+#publications .website {
+  margin-bottom: 0.5rem;
+}
+
 
 #work .summary,
 #volunteer .summary,
-#awards .summary,
-#publications .summary {
+#awards .summary {
   margin-bottom: 1.2rem;
 }
+#work .summary,
+#projects .summary
+#publications .summary {
+  margin-bottom: 1.0rem;
+}
+
 
 #skills .name,
 #interests .name {
   display: inline-block;
-
-  width: 150px;
   margin: 0 1.4rem 1.4rem 0;
-
   vertical-align: top;
   letter-spacing: 0.5px;
-
   color: rgba(36,36,36,0.80);
-
   font-weight: 600;
+}
+#skills .name {
+  width: 150px;
+}
+#interests .name {
+  width: 500;
 }
 
 #skills .keywords {
@@ -369,6 +382,7 @@ section {
 
   text-align: right;
 }
+
 
 .copy {
   margin: 1.4rem auto 4rem auto;
@@ -449,11 +463,7 @@ section {
   <div id="resume">
       <section id="basics">
         <div class="left">
-    
-          <h1>
-            
-          </h1>
-            <img class="picture" src="profile.png" alt="Renato Ćurić avatar"/>
+           <h1></h1>
         </div>
     
     
@@ -509,7 +519,7 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2022-05
+              05.2022.
             </span>
             <span class="endDate">
               - Present
@@ -522,7 +532,7 @@ section {
             DevOps Engineer and DevOps Team Lead (Freelance)
           </h4>
           <div class="website">
-            <a href="https://www.tde-group.com/">https://www.tde-group.com/</a>
+            <a href="https://www.tde-group.com">https://www.tde-group.com</a>
           </div>
     
     
@@ -540,17 +550,18 @@ section {
     
           <ul class="highlights">
             <li>Started self-employment</li>
-            <li>Promoted to Team Lead</li>
+            <li>Promote to team lead</li>
             <li>Redesigned and implemented new CI/CD infrastructure</li>
+            <li>Implemented E2E testing infrastructure</li>
           </ul>
         </div>
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2019-02
+              02.2019.
             </span>
             <span class="endDate">
-              - 2022-03
+              - 03.2022.
             </span>
           </div>
           <h3 class="name">
@@ -560,7 +571,7 @@ section {
             DevOps Engineer (Full-time)
           </h4>
           <div class="website">
-            <a href="http://www.king-ict.hr/">http://www.king-ict.hr/</a>
+            <a href="http://www.king-ict.hr">http://www.king-ict.hr</a>
           </div>
     
     
@@ -578,7 +589,7 @@ section {
     
           <ul class="highlights">
             <li>Implemented CI/CD framework</li>
-            <li>Developed In-House Application Performance Tool</li>
+            <li>Developed in-house application performance tool</li>
             <li>Working on strategic projects</li>
             <li>Obtained Oracle Cloud Infrastructure 2021 Certified Architect Associate (23.11.2021 - 23.11.2023) certification</li>
             <li>Red Hat OpenShift I: Containers &amp; Kubernetes (DO180)</li>
@@ -587,10 +598,10 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2017-02
+              02.2017.
             </span>
             <span class="endDate">
-              - 2019-02
+              - 02.2019.
             </span>
           </div>
           <h3 class="name">
@@ -617,7 +628,7 @@ section {
     
     
           <ul class="highlights">
-            <li>Implemented e2e testing infrastructure</li>
+            <li>Implemented E2E testing infrastructure</li>
             <li>Contributed to ongoing projects</li>
             <li>Talks at local meetups and conferences</li>
             <li>Trainings: AWS Certified Solutions Architect, Cucumber, Jenkins CJE, SCRUM Master Training 2018</li>
@@ -626,10 +637,10 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2015-10
+              10.2015.
             </span>
             <span class="endDate">
-              - 2017-02
+              - 02.2017.
             </span>
           </div>
           <h3 class="name">
@@ -664,10 +675,10 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2012-05
+              05.2012.
             </span>
             <span class="endDate">
-              - 2015-10
+              - 10.2015.
             </span>
           </div>
           <h3 class="name">
@@ -701,10 +712,10 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2009-05
+              05.2009.
             </span>
             <span class="endDate">
-              - 2012-05
+              - 05.2012.
             </span>
           </div>
           <h3 class="name">
@@ -745,10 +756,10 @@ section {
         <div class="item">
           <div class="date">
             <span class="startDate">
-              2005-09
+              09.2005.
             </span>
             <span class="endDate">
-              - 2008-05
+              - 05.2008.
             </span>
     
           </div>
@@ -791,7 +802,7 @@ section {
             2018
           </div>
           <h3 class="name">
-            e2e Testing With TestCafe and Cucumber.JS
+            E2E Testing With TestCafe and Cucumber.JS
           </h3>
           <h4 class="publisher">
             Comsysto Reply GmbH
@@ -812,212 +823,191 @@ section {
     
       <div class="right">
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Croatian Ministry of Physical Planning, Construction and State Property
-          </h1>
-          <h3 class="name">
-            Electronic Construction Diary
           </h3>
+          <h4 class="name">
+            Electronic Construction Diary
+          </h4>
     
           <div class="website">
             <a href="https://mpgi.gov.hr/">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>Web application for monitoring of the construction process. It covers the process from obtaining a building permit and registration of the construction site to the technical inspection of the constructed building. The complete infrastructure is designed and deployed on the National Cloud Infrastructure (CDU). My primary task was to design and implement all infrastructure components (Keycloak Cluster, ES Cluster, Postgres Cluster, Web and App servers, Jenkins, Grafana).</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer, System Architect
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>React, Spring Boot, Jenkins, Grafana, Elasticsearch, Keycloak, Postgres, Centos Linux, NGINX</li>
-          </ul>
+          <p class="summary">
+            React, Spring Boot, Jenkins, Grafana, Elasticsearch, Keycloak, Postgres, Centos Linux, NGINX
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Croatian Ministry of the Interior
-          </h1>
-          <h3 class="name">
-            Drone Fleet Manager
           </h3>
+          <h4 class="name">
+            Drone Fleet Manager
+          </h4>
     
           <div class="website">
             <a href="https://mup.gov.hr">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>SPA application for managing drone fleet and coressponding equipment. My duties included installing and configuring Oracle DB, Keycloak IAM, CI/CD infrastructure as well as supporting the development process.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>Angular, Spring Boot, Keycloak, Oracle 12c DB, Jenkins, Centos Linux</li>
-          </ul>
+          <p class="summary">
+            Angular, Spring Boot, Keycloak, Oracle 12c DB, Jenkins, Centos Linux
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Croatian Motorways Ltd
-          </h1>
-          <h3 class="name">
-            Electronic Toll Collection
           </h3>
+          <h4 class="name">
+            Electronic Toll Collection
+          </h4>
     
           <div class="website">
             <a href="https://www.hac.hr">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>System that simplifies recording and billing of tickets (Tolls). The system consists of 3 applications: web and mobile applications for end users and backoffice application. The system is dependant on various support systems that are deployed on both Windows and Linux servers. For this project my main responsibilities were the installation and configuration of: RabbitMQ cluster, Redis cluster, Keycloak IAM cluster, implementing custom application performance monitoring solution, developing and implementing the CI/CD strategy as well as providing support in production in the form of system upgrades and maintenance.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Keycloak, RabbitMQ, Redis, Groovy, Powershell</li>
-          </ul>
+          <p class="summary">
+            React Native, ASP .NET Core 3, .NET 5, Grafana, Elasticsearch, Keycloak, RabbitMQ, Redis, Groovy, Powershell
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Croatian Bureau of Statistics
-          </h1>
-          <h3 class="name">
-            Croatian Census 2021
           </h3>
+          <h4 class="name">
+            Croatian Census 2021
+          </h4>
     
           <div class="website">
             <a href="https://www.dzs.hr/">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>Croatian Census 2021 was fully digitalized. I was responsible for designing and implementing the infrastructure, deployment, monitoring and DR strategy. I have successfully implemented various subsystems and clusters: Keycloak IAM and PostgreSQL. I&#x27;ve have successfully designed and implemented the monitoring and alerting solution based on Prometheus, Grafana and Elasticsearch. By working closely with the infrastructure provider, we have ensured 0 downtime for our applications as well as 100% availability through the whole census process.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer, System Architect
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, PostgreSQL, Sentry, NGINX</li>
-          </ul>
+          <p class="summary">
+            PHP, Symphony, VUE.js, Docker, Jenkins, Keycloak, Grafana, Elasticsearch, Logstash, PostgreSQL, Sentry, NGINX
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Consors Bank Germany
-          </h1>
-          <h3 class="name">
-            Web Page Rework
           </h3>
+          <h4 class="name">
+            Web Page Rework
+          </h4>
     
           <div class="website">
             <a href="https://www.consorsbank.de">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
-            <p>Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the e2e testing framework. My other duties included the implementation of Jenkins pipelines.</p>
+          <div class="summary">
+            <p>Rebuilt customer website using Angular and Java Spring Boot. I was responsible the design and iplementation of the E2E testing framework. My other duties included the implementation of Jenkins pipelines.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer, Developer @Test
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus</li>
-          </ul>
+          <p class="summary">
+            Java 8, Spring Boot, Angular, Jenkins, Cucumber, TestCafe, SonarCube, Nexus
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             Telefónica Germany GmbH
-          </h1>
-          <h3 class="name">
-            AWS Infrastructure for Analytics Project
           </h3>
+          <h4 class="name">
+            AWS Infrastructure for Analytics Project
+          </h4>
     
           <div class="website">
             <a href="https://www.telefonica.de">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>Built AWS infrastructure for analytics project.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             DevOps Engineer
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>AWS, Linux, SparkBeyond, CentOS</li>
-          </ul>
+          <p class="summary">
+            AWS, Linux, SparkBeyond, CentOS
+          </p>
           <br></br>
     
         </div>
         <div class="item">
-          <h1 class="publisher">
+          <h3 class="publisher">
             C.A. Internet d.o.o.
-          </h1>
-          <h3 class="name">
-            WebPresence
           </h3>
+          <h4 class="name">
+            WebPresence
+          </h4>
     
           <div class="website">
             <a href="https://www.croadria.com/">Link</a>
           </div>
-          <br></br>
           <h4>Summary</h4>
-          <div class="description">
+          <div class="summary">
             <p>Integrated a centralized web-hosting platform for Deutsche Telekom Group, contributing to system architecture and PoC.</p>
           </div>
-          <br></br>
           <h4>Roles</h4>
-    
-          <p class="name">
+          <p class="summary">
             System Administrator, System Architect
           </p>
           
           <h4>Stack</h4>
-          <ul class="keywords inline comma">
-            <li>OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak</li>
-          </ul>
+          <p class="summary">
+            OpenShift, Docker, OpenVZ, Ceph Storage, Plesk, OBAS, KeyCloak
+          </p>
           <br></br>
     
         </div>
@@ -1072,12 +1062,15 @@ section {
         <ul class="language inline">
           <li>
             Croatian
+            <em>Native</em>
           <li>
           <li>
             German
+            <em>Full professional proficiency</em>
           <li>
           <li>
             English
+            <em>Full professional proficiency</em>
           <li>
         </ul>
       </div>
@@ -1090,22 +1083,7 @@ section {
       <div class="right">
         <div class="item">
           <span class="name">
-            Extreme Sports
-          </span>
-        </div>
-        <div class="item">
-          <span class="name">
-            Music
-          </span>
-        </div>
-        <div class="item">
-          <span class="name">
-            Comics &amp; SF
-          </span>
-        </div>
-        <div class="item">
-          <span class="name">
-            Gardening &amp; Cooking
+            Sports, Music, Comics &amp; SF, Gardening &amp; Cooking
           </span>
         </div>
       </div>

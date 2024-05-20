@@ -29,25 +29,31 @@ time, mark, audio, video {
   font: inherit;
   font-size: 100%;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-spacing: 0;
 
@@ -88,7 +94,7 @@ h2 {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 
-  color: rgba(36,36,36,0.80);
+  color: rgba(36, 36, 36, 0.80);
 
   font-size: 1rem;
   font-weight: 600;
@@ -108,7 +114,7 @@ h4 {
 
   letter-spacing: 0.5px;
 
-  color: rgba(36,36,36,0.80);
+  color: rgba(36, 36, 36, 0.80);
 
   font-size: 0.9rem;
   font-weight: 600;
@@ -118,7 +124,7 @@ h4 {
 a {
   text-decoration: none;
 
-  color: rgba(36,36,36,0.40);
+  color: rgba(36, 36, 36, 0.40);
 }
 
 a:hover {
@@ -130,14 +136,14 @@ p {
 }
 
 em {
-  color: rgba(36,36,36,0.40);
+  color: rgba(36, 36, 36, 0.40);
 
   font-size: 0.9rem;
   font-weight: normal;
 }
 
 strong {
-  color: rgba(37,37,37,0.80);
+  color: rgba(37, 37, 37, 0.80);
 
   font-size: 0.9rem;
   font-weight: 600;
@@ -165,7 +171,7 @@ blockquote:before {
 }
 
 li {
-  padding: 0.4rem 0 0.4rem 1rem;
+  padding: 0.1rem 0 0.1rem 0.5rem;
 
   line-height: 1.8;
 }
@@ -230,7 +236,7 @@ section {
 
   border-radius: 4px;
   background: #FFFFFF;
-  box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.05);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .left {
@@ -254,7 +260,7 @@ section {
 .date, .releaseDate {
   margin-bottom: 0.6rem;
 
-  color: rgba(36,36,36,0.40);
+  color: rgba(36, 36, 36, 0.40);
 
   font-size: 0.9rem;
 }
@@ -275,7 +281,7 @@ section {
 }
 
 #basics .contact {
-  color: rgba(36,36,36,0.40);
+  color: rgba(36, 36, 36, 0.40);
 
   font-size: 0.9rem;
 }
@@ -291,7 +297,7 @@ section {
 }
 
 #profiles li a {
-  color: rgba(36,36,36,0.60);
+  color: rgba(36, 36, 36, 0.60);
 }
 
 #profiles .network {
@@ -305,9 +311,12 @@ section {
 
 #work .item,
 #volunteer .item,
-#awards .item,
+#awards .item {
+  margin-bottom: 1.5rem;
+}
+
 #publications .item {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 #work .item:last-child,
@@ -319,31 +328,43 @@ section {
 
 #work .website,
 #volunteer .website,
-#awards .website,
-#publications .website {
+#awards .website {
   margin-bottom: 1.4rem;
+}
+
+#work .website,
+#projects .website,
+#publications .website {
+  margin-bottom: 0.5rem;
 }
 
 #work .summary,
 #volunteer .summary,
-#awards .summary,
-#publications .summary {
+#awards .summary {
   margin-bottom: 1.2rem;
+}
+
+#work .summary,
+#projects .summary #publications .summary {
+  margin-bottom: 1.0rem;
 }
 
 #skills .name,
 #interests .name {
   display: inline-block;
-
-  width: 150px;
   margin: 0 1.4rem 1.4rem 0;
-
   vertical-align: top;
   letter-spacing: 0.5px;
-
-  color: rgba(36,36,36,0.80);
-
+  color: rgba(36, 36, 36, 0.80);
   font-weight: 600;
+}
+
+#skills .name {
+  width: 150px;
+}
+
+#interests .name {
+  width: 500;
 }
 
 #skills .keywords {
@@ -359,6 +380,7 @@ section {
 
   text-align: right;
 }
+
 
 .copy {
   margin: 1.4rem auto 4rem auto;
@@ -393,12 +415,15 @@ section {
 
     padding: 0 40px;
   }
+
   .right {
     padding: 0 40px;
   }
+
   .contact {
     margin-bottom: 1.2rem;
   }
+
   #basics .left, #basics .right {
     text-align: center;
   }
